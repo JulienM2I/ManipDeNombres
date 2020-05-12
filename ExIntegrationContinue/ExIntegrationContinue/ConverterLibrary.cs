@@ -10,7 +10,7 @@ namespace ExIntegrationContinue
     {
         public int GetInt(string nombre)
         {
-            return int.Parse(nombre) +1; //oups
+            return int.Parse(nombre);
         }
     }
 }
